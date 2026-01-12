@@ -12,6 +12,14 @@ app.post('/',(req,res) =>{
     res.send("Post Request")
 })
 
+app.put('/',(req,res) =>{
+    res.send("Put Request")
+})
+
+app.delete('/',(req,res) =>{
+    res.send("Delete Request")
+}
+
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`)
     console.log(`Hakkim: ${port}`)
