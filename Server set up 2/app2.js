@@ -6,6 +6,12 @@ app.get('/',(req,res) =>{
     res.send("Hello World")
 })
 
+// Hakkim
+
+app.post('/',(req,res) =>{
+    res.send("Post Request")
+})
+
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`)
     console.log(`Hakkim: ${port}`)
