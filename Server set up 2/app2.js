@@ -18,7 +18,7 @@ app.put('/',(req,res) =>{
 
 app.delete('/',(req,res) =>{
     res.send("Delete Request")
-}
+})
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`)
